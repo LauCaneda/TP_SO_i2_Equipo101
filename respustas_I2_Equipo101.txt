@@ -6,4 +6,12 @@ a -
 b - 
 c - Gamma no estuvo presente aun para realizar esta accion
 d - No se pierden mis datos, ya que el fork actualiza a los demas participantes pero manteniendo lo que yo cree
-e -
+e - 
+. Primero creamos el archivo fork.txt desde git hub
+. Alfa y Gamma usan el fork en el repositorio de Beta y lo clonan "git clone"
+. Alfa y Gamma modifican el archivo fork.txt con sus datos y lo suben con "git add .", "git commit -m" y "git push"
+. Beta usa "git clone" en su propio repositorio, crea el archivo NuevoDato.txt y lo sube con "git add .", "git commit -m" y "git push"
+. Alfa y Gamma sincronizan el fork en su repositorio desde git hub para agregar los cambios que realiza beta
+. Tambien probamos hacerlo desde el git bash con los comandos "Git remote add upstream 'repositorio beta'", "git fetch upstream", "git merge upstream/main" y "git push
+. Beta crea el archivo “respuesta_I2_Equipo101.txt" y lo sube con "git add .", "git commit -m" y "git push"
+. Alfa y Gamma sincronizan el fork y agregan sus respuestas al archivo “respuesta_I2_Equipo101.txt" 
